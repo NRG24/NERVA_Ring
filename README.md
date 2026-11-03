@@ -14,9 +14,7 @@ The NERVA Ring shifts the focus of wearable technology away from step-counting a
 * **Wireless Telemetry:** Real-time, low-latency data streaming to mobile devices using Bluetooth Low Energy (BLE).
 * **Intelligent Software Pipeline:** Dynamic in-app data filtering to remove motion artifacts and anomalies, powering a custom algorithm that delivers a "Cognitive Score" out of 100 alongside meaningful behavioral insights.
 
-## Hardware Architecture
 
-The current board is **NERVA Ring v2**, a complete part change from v1 — the MCU, both sensors, the op-amp, and the entire power path were replaced. Everything under `hardware/` and `firmware/` in this repo still describes the v1 board; see [Board Revisions](#board-revisions).
 
 ### Core components
 
@@ -114,7 +112,7 @@ NERVA_Ring/
 
 ## Bill of Materials (Summary)
 
-Active components on the **v2** board:
+Active (non-passive) components on the **v2** board:
 
 | Component | Part | Qty |
 |-----------|------|-----|
@@ -126,7 +124,6 @@ Active components on the **v2** board:
 | LED boost converter | TPS61240 (fixed 5 V) | 1 |
 | Battery | Curved ring-type LiPo — capacity TBD | 1 |
 
-> The BOM files in this repo — [`hardware/BOM.md`](hardware/BOM.md) and the raw JLCPCB export [`hardware/NERVA RING-bom.csv`](hardware/NERVA%20RING-bom.csv) — are the **v1** build, including passives, costs and LCSC part numbers. A v2 BOM has not been generated.
 
 ## Sensors & Data Streams
 
@@ -140,8 +137,6 @@ Active components on the **v2** board:
 | Battery Level | BQ25120A VBMON | `...0007` | Int |
 
 **BLE Service UUID:** `19B10000-E8F2-537E-4F6C-D104768A1214`
-
-The v2 IMU also makes raw accelerometer and gyroscope streams available. UUIDs and payload types above describe the app currently in `app/`; the BLE characteristic set is firmware/app scope and is not covered by this hardware pass.
 
 ## Board Revisions
 
@@ -158,27 +153,7 @@ Every design file in `hardware/` and every sketch in `firmware/` describes the *
 | Temperature source | MAX30102 die temp | LSM6DSV die temp |
 | Battery monitoring | none | BQ25120A VBMON |
 
-Consequences worth knowing:
 
-* The KiCad project, Gerbers, BOM, and all layout/schematic notes under `hardware/` are v1 and have not been regenerated.
-* v1 firmware does not port to v2. Beyond the sensor changes, the Adafruit nRF52 Arduino core supports nRF52832/nRF52840 only, while the ANNA-B402 is an nRF52833.
-
-**Within the v1 documents themselves**, several files still reference even earlier parts: `SCHEMATIC_CHECKLIST.md`, `PCB_LAYOUT_STRATEGY.md`, and `GSR_CIRCUIT_INTEGRATION.md` mention LSM6DS3, TLV9004 (UQFN-14), and a 3.3 V MCP1700T-3302E LDO, and the JLCPCB BOM CSV lists MDBT50Q-1MV2 in the MCU slot rather than the MDBT42V actually fitted. `hardware/BOM.md` tracks that list. The firmware docs in `firmware/gsr_heart_ble/` describe the XIAO nRF52840 prototyping setup, not a ring board of either revision.
-
-## Getting Started
-
-### Mobile App
-```bash
-cd app
-flutter pub get
-flutter run
-```
-
-### Firmware (Prototype with XIAO nRF52840)
-1. Install Arduino IDE with Seeed nRF52 board support
-2. Install libraries: `ArduinoBLE`, `OneWire`, `DallasTemperature`
-3. Wire sensors per `firmware/gsr_heart_ble/SETUP_INSTRUCTIONS.md`
-4. Upload `firmware/gsr_heart_ble/gsr_complete_all_features.ino`
 
 ### Hardware
 The KiCad project, Gerbers, and BOM in `hardware/` are the **v1** board: a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. v2 design files are not in this repo — the v2 description above comes from its netlist and datasheet review.
