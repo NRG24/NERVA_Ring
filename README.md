@@ -162,13 +162,11 @@ Bringing up a v2 board: attach a debug probe to SWD (module pins 41/42) and powe
 
 ---
 
-https://github.com/user-attachments/assets/21d7508c-1ee5-49b8-9717-f8bbbc1bc319
+<img width="1107" height="567" alt="Screenshot 2026-11-22 at 6 03 13 PM" src="https://github.com/user-attachments/assets/68ba1d96-e0fd-44bf-9d26-4ad1a8721843" />
+<img width="2000" height="2000" alt="nerva_hero_stone_open_black" src="https://github.com/user-attachments/assets/a556542a-b929-48a3-ad54-c9c05df0de08" />
+<img width="1100" height="1100" alt="check_sil" src="https://github.com/user-attachments/assets/cd7ac3a4-5530-4a8b-9adf-f151d6e655aa" />
 
-<img width="1526" height="1260" alt="image" src="https://github.com/user-attachments/assets/9e2d3639-5bc1-4c2b-b5d9-fed1e8b23c1c" />
 
 
-<img width="403" height="397" alt="Screenshot 2026-08-25 004724" src="https://github.com/user-attachments/assets/df2bb9ed-6409-4a62-90d9-9fb8bdcfb27c" />
-<img width="610" height="432" alt="Screenshot 2026-08-25 004632" src="https://github.com/user-attachments/assets/f83ff3af-5dcd-4694-9f5e-6b3734bc1ae0" />
-<img width="1257" height="372" alt="image" src="https://github.com/user-attachments/assets/cbb06c4a-c7b0-47b7-81d3-aa73f95ad57c" />
 
 
