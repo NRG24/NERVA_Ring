@@ -97,7 +97,10 @@ NERVA_Ring/
 │   ├── BOM.md                  # Formatted v2 BOM reference
 │   ├── gsr_wearable.kicad_sch  # KiCad schematic
 │   ├── gsr_wearable.kicad_pro  # KiCad project
-│   ├── Ring CAD.step           # 3D CAD model
+│   ├── cad/                    # Current ring CAD (v7)
+│   │   ├── Ringv7.f3d          # Fusion 360 source file
+│   │   └── Ringv7.step         # Full assembly STEP (housing + electronics)
+│   ├── Ring CAD.step           # Older 3D CAD model
 │   ├── pcb/                    # PCB layout files
 │   ├── SCHEMATIC_CHECKLIST.md  # Design review checklist
 │   ├── GSR_CIRCUIT_INTEGRATION.md
@@ -172,6 +175,8 @@ Every design file in `hardware/` (except the BOM files) and every sketch in `fir
 
 ### Hardware
 The KiCad project and Gerbers in `hardware/` are the **v1** board (the BOM files are v2): a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. v2 design files are not in this repo — the v2 description above comes from its netlist and datasheet review.
+
+**CAD:** the current ring is in [`hardware/cad/`](hardware/cad): [`Ringv7.f3d`](hardware/cad/Ringv7.f3d) is the Fusion 360 source and [`Ringv7.step`](hardware/cad/Ringv7.step) is the full assembly with the electronics.
 
 Bringing up a v2 board: attach a debug probe to SWD (module pins 41/42) and power it from a partially charged cell. **A fresh board will not charge on its own** — the floating TS pin holds the BQ25120A off until firmware clears `TS_EN`.
 
