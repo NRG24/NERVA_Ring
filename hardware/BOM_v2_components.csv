@@ -1,32 +1,34 @@
-Part,Designators,Qty per board,LCSC #,LCSC link,Unit price (USD),Cost per board (USD),Cost for 2 boards (USD),Notes,Manufacturer part,Manufacturer,Package,LCSC stock (2026-11-25)
-Heart-rate / SpO2 optical sensor,U3,1,C1530834,https://www.lcsc.com/product-detail/C1530834.html,18.4507,18.4507,36.90,16 in stock at LCSC,MAXM86161EFD+,ADI/MAXIM,OLGA-14_L4.3-W2.9-P0.60-TL,16
-Bluetooth module (nRF52833),U5,1,C6124130,https://www.lcsc.com/product-detail/C6124130.html,14.4210,14.4210,28.84,55 in stock at LCSC,ANNA-B402-00B,U-BLOX,BULETM-SMD_L6.5-W6.5-P0.65_ANNA-B402,55
-Battery charger + power management,U6,1,C2866577,https://www.lcsc.com/product-detail/C2866577.html,7.0530,7.0530,14.11,Only 2 in stock at LCSC,BQ25120AYFPR,TI,DSBGA-25_L2.5-W2.6-R5-C5-P0.40-BL,2
-Motion sensor (6-axis IMU),U4,1,C17496470,https://www.lcsc.com/product-detail/C17496470.html,2.4287,2.4287,4.86,,LSM6DSVQTR,ST,LGA-14_L3.0-W2.5-P0.50-TL,12030
-5V boost converter (sensor LEDs),U1,1,C2070904,https://www.lcsc.com/product-detail/C2070904.html,0.7796,0.7796,1.56,,TPS61240YFFR,TI,DSBGA-6_L1.2-W0.8-R2-C3-P0.40-BL,8587
-Op-amp (stress / GSR sensing),U9,1,C2058093,https://www.lcsc.com/product-detail/C2058093.html,0.7433,0.7433,1.49,,TLV8542RUGR,TI,X2QFN-8_L1.5-W1.5-P0.50-TL,3875
-ESD protection diode,"D1,D3,D4",3,C207271,https://www.lcsc.com/product-detail/C207271.html,0.0732,0.2196,0.44,,SP1005-01WTG,Littelfuse,D0201-BI,2240
-Inductor 2.2µH,L1,1,C383389,https://www.lcsc.com/product-detail/C383389.html,0.0666,0.0666,0.13,,MLZ1005M2R2WT000,TDK,L0402,28740
-Antenna RF connector (IPEX),RF1,1,C411563,https://www.lcsc.com/product-detail/C411563.html,0.0635,0.0635,0.13,,KH-IPEX-K501-29,kinghelm,ANT-SMD_KH-IPEX-K501-29,489550
-Capacitor 10µF,"C1,C3,C16",3,C15525,https://www.lcsc.com/product-detail/C15525.html,0.0192,0.0576,0.12,,CL05A106MQ5NUNC,SAMSUNG,C0402,1940000
-Capacitor 2.2µF,"C15,C20",2,C319184,https://www.lcsc.com/product-detail/C319184.html,0.0247,0.0494,0.10,,GRM033R61A225ME47D,muRata,C0201,148580
-Inductor 1µH,L2,1,C531288,https://www.lcsc.com/product-detail/C531288.html,0.0386,0.0386,0.08,,MLZ1005M1R0WT000,TDK,L0402,8300
-Capacitor 100nF,"C6,C7,C11,C19,C21,C23",6,C66938,https://www.lcsc.com/product-detail/C66938.html,0.0034,0.0204,0.04,,0201X104K6R3NT,FH,C0201,1646000
-Capacitor 10µF,C12,1,C7472949,https://www.lcsc.com/product-detail/C7472949.html,0.0186,0.0186,0.04,,HGC0402R5106M100NTEJ,Chinocera,C0402,1322100
-Capacitor 1µF,"C2,C5,C8",3,C52923,https://www.lcsc.com/product-detail/C52923.html,0.0056,0.0168,0.03,,CL05A105KA5NQNC,SAMSUNG,C0402,3503800
-Capacitor 1nF,C25,1,C161371,https://www.lcsc.com/product-detail/C161371.html,0.0161,0.0161,0.03,,GRM0335C1E102JA01D,muRata,C0201,51550
-Capacitor 1µF,C13,1,C76929,https://www.lcsc.com/product-detail/C76929.html,0.0136,0.0136,0.03,,GRM033R60J105KEA2D,muRata,C0201,1371100
-Resistor 41.2kΩ,"R18,R19",2,C4311490,https://www.lcsc.com/product-detail/C4311490.html,0.0038,0.0076,0.02,,RMCF0201FT41K2,SEI,R0201,9700
-Resistor 1MΩ,"R12,R13,R15,R16",4,C295786,https://www.lcsc.com/product-detail/C295786.html,0.0015,0.0060,0.01,,RC0201FR-071ML,YAGEO,R0201,1906200
-Resistor 10kΩ,"R9,R17,R21",3,C473048,https://www.lcsc.com/product-detail/C473048.html,0.0012,0.0036,0.01,,0201WMF1002TEE,UNI-ROYAL,R0201,6515200
-Resistor 100Ω,R11,1,C77623,https://www.lcsc.com/product-detail/C77623.html,0.0022,0.0022,0.00,,RC0201FR-07100RL,YAGEO,R0201,1261900
-Capacitor 10nF,"C22,C24,C26",3,C5142551,https://www.lcsc.com/product-detail/C5142551.html,0.0006,0.0018,0.00,,TCC0201X7R103K500ZT,CCTC,C0201,1317850
-Resistor 4.7kΩ,"R1,R2",2,C2906941,https://www.lcsc.com/product-detail/C2906941.html,0.0009,0.0018,0.00,,FRC0402J472 TS,FOJAN,R0402,8206300
-Resistor 402kΩ,R14,1,C273291,https://www.lcsc.com/product-detail/C273291.html,0.0016,0.0016,0.00,,RC0201FR-07402KL,YAGEO,R0201,67500
-Resistor 150kΩ,R20,1,C473465,https://www.lcsc.com/product-detail/C473465.html,0.0014,0.0014,0.00,,0201WMF1503TEE,UNI-ROYAL,R0201,160000
-0Ω jumper (inductor footprint),L3,1,C2906858,https://www.lcsc.com/product-detail/C2906858.html,0.0009,0.0009,0.00,,FRC0402F0000TS,FOJAN,L0402,14135600
-Resistor 0Ω,R7,1,C7467269,https://www.lcsc.com/product-detail/C7467269.html,0.0007,0.0007,0.00,,FRC0201P000 TS,FOJAN,R0201,3079200
-Not placed,"C9,C17",2,,,0.0000,0.0000,0.00,Not placed (DNP),,,C0201,
-Magnetic pogo charger connector,CHARGER,1,,,0.0000,0.0000,0.00,"Charger connector, not on LCSC",,,NeoMagFP,
-Test points / skin electrodes,"Drive_Electrode,Sense_Electrode,TP1,TP2",4,,,0.0000,0.0000,0.00,"Bare copper pad, no part",,,Test-Point-0.5mm,
-Not placed,R8,1,,,0.0000,0.0000,0.00,Not placed (DNP),,,R0201,
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Designators,MPN
+Heart-rate / SpO2 optical sensor,Part,2,18.4507,36.9014,https://www.lcsc.com/product-detail/C1530834.html,LCSC (placed by JLCPCB),Grant,16 in stock at LCSC,U3,MAXM86161EFD+
+Bluetooth module (nRF52833),Part,2,14.421,28.842,https://www.lcsc.com/product-detail/C6124130.html,LCSC (placed by JLCPCB),Grant,55 in stock at LCSC,U5,ANNA-B402-00B
+Battery charger + power management,Part,2,7.053,14.106,https://www.lcsc.com/product-detail/C2866577.html,LCSC (placed by JLCPCB),Grant,Only 2 in stock at LCSC,U6,BQ25120AYFPR
+Motion sensor (6-axis IMU),Part,2,2.4287,4.8574,https://www.lcsc.com/product-detail/C17496470.html,LCSC (placed by JLCPCB),Grant,,U4,LSM6DSVQTR
+5V boost converter (sensor LEDs),Part,2,0.7796,1.5592,https://www.lcsc.com/product-detail/C2070904.html,LCSC (placed by JLCPCB),Grant,,U1,TPS61240YFFR
+Op-amp (stress / GSR sensing),Part,2,0.7433,1.4866,https://www.lcsc.com/product-detail/C2058093.html,LCSC (placed by JLCPCB),Grant,,U9,TLV8542RUGR
+ESD protection diode,Part,6,0.0732,0.4392,https://www.lcsc.com/product-detail/C207271.html,LCSC (placed by JLCPCB),Grant,,"D1,D3,D4",SP1005-01WTG
+Inductor 2.2µH,Part,2,0.0666,0.1332,https://www.lcsc.com/product-detail/C383389.html,LCSC (placed by JLCPCB),Grant,,L1,MLZ1005M2R2WT000
+Antenna RF connector (IPEX),Part,2,0.0635,0.127,https://www.lcsc.com/product-detail/C411563.html,LCSC (placed by JLCPCB),Grant,,RF1,KH-IPEX-K501-29
+Capacitor 10µF,Part,6,0.0192,0.1152,https://www.lcsc.com/product-detail/C15525.html,LCSC (placed by JLCPCB),Grant,,"C1,C3,C16",CL05A106MQ5NUNC
+Capacitor 2.2µF,Part,4,0.0247,0.0988,https://www.lcsc.com/product-detail/C319184.html,LCSC (placed by JLCPCB),Grant,,"C15,C20",GRM033R61A225ME47D
+Inductor 1µH,Part,2,0.0386,0.0772,https://www.lcsc.com/product-detail/C531288.html,LCSC (placed by JLCPCB),Grant,,L2,MLZ1005M1R0WT000
+Capacitor 100nF,Part,12,0.0034,0.0408,https://www.lcsc.com/product-detail/C66938.html,LCSC (placed by JLCPCB),Grant,,"C6,C7,C11,C19,C21,C23",0201X104K6R3NT
+Capacitor 10µF,Part,2,0.0186,0.0372,https://www.lcsc.com/product-detail/C7472949.html,LCSC (placed by JLCPCB),Grant,,C12,HGC0402R5106M100NTEJ
+Capacitor 1µF,Part,6,0.0056,0.0336,https://www.lcsc.com/product-detail/C52923.html,LCSC (placed by JLCPCB),Grant,,"C2,C5,C8",CL05A105KA5NQNC
+Capacitor 1nF,Part,2,0.0161,0.0322,https://www.lcsc.com/product-detail/C161371.html,LCSC (placed by JLCPCB),Grant,,C25,GRM0335C1E102JA01D
+Capacitor 1µF,Part,2,0.0136,0.0272,https://www.lcsc.com/product-detail/C76929.html,LCSC (placed by JLCPCB),Grant,,C13,GRM033R60J105KEA2D
+Resistor 41.2kΩ,Part,4,0.0038,0.0152,https://www.lcsc.com/product-detail/C4311490.html,LCSC (placed by JLCPCB),Grant,,"R18,R19",RMCF0201FT41K2
+Resistor 1MΩ,Part,8,0.0015,0.012,https://www.lcsc.com/product-detail/C295786.html,LCSC (placed by JLCPCB),Grant,,"R12,R13,R15,R16",RC0201FR-071ML
+Resistor 10kΩ,Part,6,0.0012,0.0072,https://www.lcsc.com/product-detail/C473048.html,LCSC (placed by JLCPCB),Grant,,"R9,R17,R21",0201WMF1002TEE
+Resistor 100Ω,Part,2,0.0022,0.0044,https://www.lcsc.com/product-detail/C77623.html,LCSC (placed by JLCPCB),Grant,,R11,RC0201FR-07100RL
+Capacitor 10nF,Part,6,0.0006,0.0036,https://www.lcsc.com/product-detail/C5142551.html,LCSC (placed by JLCPCB),Grant,,"C22,C24,C26",TCC0201X7R103K500ZT
+Resistor 4.7kΩ,Part,4,0.0009,0.0036,https://www.lcsc.com/product-detail/C2906941.html,LCSC (placed by JLCPCB),Grant,,"R1,R2",FRC0402J472 TS
+Resistor 402kΩ,Part,2,0.0016,0.0032,https://www.lcsc.com/product-detail/C273291.html,LCSC (placed by JLCPCB),Grant,,R14,RC0201FR-07402KL
+Resistor 150kΩ,Part,2,0.0014,0.0028,https://www.lcsc.com/product-detail/C473465.html,LCSC (placed by JLCPCB),Grant,,R20,0201WMF1503TEE
+0Ω jumper (inductor footprint),Part,2,0.0009,0.0018,https://www.lcsc.com/product-detail/C2906858.html,LCSC (placed by JLCPCB),Grant,,L3,FRC0402F0000TS
+Resistor 0Ω,Part,2,0.0007,0.0014,https://www.lcsc.com/product-detail/C7467269.html,LCSC (placed by JLCPCB),Grant,,R7,FRC0201P000 TS
+Spare parts for assembly loss,Part,1,2.6306,2.6306,https://jlcpcb.com/smt-assembly,JLCPCB,Grant,Extra parts JLCPCB buys; brings components to the $91.60 checkout charge,,
+Flex PCB fabrication (v2 board),PCB,1,31.60,31.60,https://jlcpcb.com/,JLCPCB,Grant,2 boards,,
+PCB assembly,PCB,1,137.65,137.65,https://jlcpcb.com/smt-assembly,JLCPCB,Grant,"Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging for 2 boards",,
+Shipping,Shipping,1,25.99,25.99,https://jlcpcb.com/,JLCPCB,Grant,PCB + assembly order,,
+What I cover,Tax or fee,1,-37.00,-37.00,https://jlcpcb.com/,Self-funded,Already own,Part of the order I'm paying for myself,,
+Total,,,,249.84,,,,,,
