@@ -26,7 +26,7 @@ Resistor 402kΩ,2,0.0016,https://www.lcsc.com/product-detail/C273291.html,LCSC (
 Resistor 150kΩ,2,0.0014,https://www.lcsc.com/product-detail/C473465.html,LCSC (placed by JLCPCB),R20,0201WMF1503TEE,
 0Ω jumper (inductor footprint),2,0.0009,https://www.lcsc.com/product-detail/C2906858.html,LCSC (placed by JLCPCB),L3,FRC0402F0000TS,
 Resistor 0Ω,2,0.0007,https://www.lcsc.com/product-detail/C7467269.html,LCSC (placed by JLCPCB),R7,FRC0201P000 TS,
-Spare parts for assembly loss,1,2.6306,,JLCPCB,,,Extra parts JLCPCB buys; brings components to the $91.60 checkout charge
-Flex PCB fabrication (v2 board),1,31.60,,JLCPCB,,,2 boards
-PCB assembly,1,137.65,,JLCPCB,,,"Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging for 2 boards"
-Shipping,1,25.99,,JLCPCB,,,PCB + assembly order
+Spare parts for assembly loss,1,2.6306,https://jlcpcb.com/smt-assembly,JLCPCB,,,Extra parts JLCPCB buys; brings components to the $91.60 checkout charge
+Flex PCB fabrication (v2 board),1,31.60,https://jlcpcb.com/,JLCPCB,,,2 boards
+PCB assembly,1,137.65,https://jlcpcb.com/smt-assembly,JLCPCB,,,"Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging for 2 boards"
+Shipping,1,25.99,https://jlcpcb.com/,JLCPCB,,,PCB + assembly order
