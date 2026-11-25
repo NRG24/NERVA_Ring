@@ -1,0 +1,34 @@
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Designators,MPN
+Heart-rate / SpO2 optical sensor,Part,2,18.4507,36.9014,https://www.lcsc.com/product-detail/C1530834.html,LCSC (placed by JLCPCB),Grant,16 in stock at LCSC,U3,MAXM86161EFD+
+Bluetooth module (nRF52833),Part,2,14.421,28.842,https://www.lcsc.com/product-detail/C6124130.html,LCSC (placed by JLCPCB),Grant,55 in stock at LCSC,U5,ANNA-B402-00B
+Battery charger + power management,Part,2,7.053,14.106,https://www.lcsc.com/product-detail/C2866577.html,LCSC (placed by JLCPCB),Grant,Only 2 in stock at LCSC,U6,BQ25120AYFPR
+Motion sensor (6-axis IMU),Part,2,2.4287,4.8574,https://www.lcsc.com/product-detail/C17496470.html,LCSC (placed by JLCPCB),Grant,,U4,LSM6DSVQTR
+5V boost converter (sensor LEDs),Part,2,0.7796,1.5592,https://www.lcsc.com/product-detail/C2070904.html,LCSC (placed by JLCPCB),Grant,,U1,TPS61240YFFR
+Op-amp (stress / GSR sensing),Part,2,0.7433,1.4866,https://www.lcsc.com/product-detail/C2058093.html,LCSC (placed by JLCPCB),Grant,,U9,TLV8542RUGR
+ESD protection diode,Part,6,0.0732,0.4392,https://www.lcsc.com/product-detail/C207271.html,LCSC (placed by JLCPCB),Grant,,"D1,D3,D4",SP1005-01WTG
+Inductor 2.2µH,Part,2,0.0666,0.1332,https://www.lcsc.com/product-detail/C383389.html,LCSC (placed by JLCPCB),Grant,,L1,MLZ1005M2R2WT000
+Antenna RF connector (IPEX),Part,2,0.0635,0.127,https://www.lcsc.com/product-detail/C411563.html,LCSC (placed by JLCPCB),Grant,,RF1,KH-IPEX-K501-29
+Capacitor 10µF,Part,6,0.0192,0.1152,https://www.lcsc.com/product-detail/C15525.html,LCSC (placed by JLCPCB),Grant,,"C1,C3,C16",CL05A106MQ5NUNC
+Capacitor 2.2µF,Part,4,0.0247,0.0988,https://www.lcsc.com/product-detail/C319184.html,LCSC (placed by JLCPCB),Grant,,"C15,C20",GRM033R61A225ME47D
+Inductor 1µH,Part,2,0.0386,0.0772,https://www.lcsc.com/product-detail/C531288.html,LCSC (placed by JLCPCB),Grant,,L2,MLZ1005M1R0WT000
+Capacitor 100nF,Part,12,0.0034,0.0408,https://www.lcsc.com/product-detail/C66938.html,LCSC (placed by JLCPCB),Grant,,"C6,C7,C11,C19,C21,C23",0201X104K6R3NT
+Capacitor 10µF,Part,2,0.0186,0.0372,https://www.lcsc.com/product-detail/C7472949.html,LCSC (placed by JLCPCB),Grant,,C12,HGC0402R5106M100NTEJ
+Capacitor 1µF,Part,6,0.0056,0.0336,https://www.lcsc.com/product-detail/C52923.html,LCSC (placed by JLCPCB),Grant,,"C2,C5,C8",CL05A105KA5NQNC
+Capacitor 1nF,Part,2,0.0161,0.0322,https://www.lcsc.com/product-detail/C161371.html,LCSC (placed by JLCPCB),Grant,,C25,GRM0335C1E102JA01D
+Capacitor 1µF,Part,2,0.0136,0.0272,https://www.lcsc.com/product-detail/C76929.html,LCSC (placed by JLCPCB),Grant,,C13,GRM033R60J105KEA2D
+Resistor 41.2kΩ,Part,4,0.0038,0.0152,https://www.lcsc.com/product-detail/C4311490.html,LCSC (placed by JLCPCB),Grant,,"R18,R19",RMCF0201FT41K2
+Resistor 1MΩ,Part,8,0.0015,0.012,https://www.lcsc.com/product-detail/C295786.html,LCSC (placed by JLCPCB),Grant,,"R12,R13,R15,R16",RC0201FR-071ML
+Resistor 10kΩ,Part,6,0.0012,0.0072,https://www.lcsc.com/product-detail/C473048.html,LCSC (placed by JLCPCB),Grant,,"R9,R17,R21",0201WMF1002TEE
+Resistor 100Ω,Part,2,0.0022,0.0044,https://www.lcsc.com/product-detail/C77623.html,LCSC (placed by JLCPCB),Grant,,R11,RC0201FR-07100RL
+Capacitor 10nF,Part,6,0.0006,0.0036,https://www.lcsc.com/product-detail/C5142551.html,LCSC (placed by JLCPCB),Grant,,"C22,C24,C26",TCC0201X7R103K500ZT
+Resistor 4.7kΩ,Part,4,0.0009,0.0036,https://www.lcsc.com/product-detail/C2906941.html,LCSC (placed by JLCPCB),Grant,,"R1,R2",FRC0402J472 TS
+Resistor 402kΩ,Part,2,0.0016,0.0032,https://www.lcsc.com/product-detail/C273291.html,LCSC (placed by JLCPCB),Grant,,R14,RC0201FR-07402KL
+Resistor 150kΩ,Part,2,0.0014,0.0028,https://www.lcsc.com/product-detail/C473465.html,LCSC (placed by JLCPCB),Grant,,R20,0201WMF1503TEE
+0Ω jumper (inductor footprint),Part,2,0.0009,0.0018,https://www.lcsc.com/product-detail/C2906858.html,LCSC (placed by JLCPCB),Grant,,L3,FRC0402F0000TS
+Resistor 0Ω,Part,2,0.0007,0.0014,https://www.lcsc.com/product-detail/C7467269.html,LCSC (placed by JLCPCB),Grant,,R7,FRC0201P000 TS
+Spare parts for assembly loss,Part,1,2.6306,2.6306,https://jlcpcb.com/smt-assembly,JLCPCB,Grant,Extra parts JLCPCB buys; brings components to the $91.60 checkout charge,,
+Flex PCB fabrication (v2 board),PCB,1,31.60,31.60,https://jlcpcb.com/,JLCPCB,Grant,2 boards,,
+PCB assembly,PCB,1,137.65,137.65,https://jlcpcb.com/smt-assembly,JLCPCB,Grant,"Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging for 2 boards",,
+Shipping,Shipping,1,25.99,25.99,https://jlcpcb.com/,JLCPCB,Grant,PCB + assembly order,,
+What I cover,Tax or fee,1,-37.00,-37.00,https://jlcpcb.com/,Self-funded,Already own,Part of the order I'm paying for myself,,
+Total,,,,249.84,,,,,,
