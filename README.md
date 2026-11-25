@@ -91,19 +91,16 @@ NERVA_Ring/
 │   │   └── *.ino              # Variant sketches (power-optimized, all-features, etc.)
 │   ├── simple_ble/             # Minimal BLE test
 │   └── *.ino                  # Standalone test sketches
-├── hardware/                   # Hardware design files (v1 board)
+├── hardware/                   # Hardware design files
 │   ├── NERVA RING-bom.csv      # v2 bill of materials (full order, 2 boards)
 │   ├── BOM_v2_components.csv   # v2 component breakdown with LCSC part numbers
 │   ├── BOM.md                  # Formatted v2 BOM reference
-│   ├── gsr_wearable.kicad_sch  # KiCad schematic
-│   ├── gsr_wearable.kicad_pro  # KiCad project
 │   ├── cad/                    # Current ring CAD (v7)
 │   │   ├── Ringv7.f3d          # Fusion 360 source file
 │   │   └── Ringv7.step         # Full assembly STEP (housing + electronics)
 │   ├── Ring CAD.step           # Older 3D CAD model
 │   ├── pcb/                    # PCB files
-│   │   ├── v2/                 # Current board: EasyEDA Pro project, Gerbers, 3D STEP
-│   │   └── PCB and Schematic/  # v1 Gerbers and screenshots
+│   │   └── v2/                 # Current board: EasyEDA Pro project, Gerbers, 3D STEP
 │   ├── SCHEMATIC_CHECKLIST.md  # Design review checklist
 │   ├── GSR_CIRCUIT_INTEGRATION.md
 │   ├── PCB_LAYOUT_STRATEGY.md
@@ -176,7 +173,7 @@ Every design file in `hardware/` (except the BOM files) and every sketch in `fir
 
 
 ### Hardware
-The KiCad project and the Gerbers in `hardware/pcb/PCB and Schematic/` are the **v1** board (the BOM files and `hardware/pcb/v2/` are v2): a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. The v2 Gerbers and board STEP are in `hardware/pcb/v2/`.
+The v2 board is a 2-layer flex design with components on both sides and 0402/0201 passives, assembled by JLCPCB. Its EasyEDA Pro project, Gerbers and board STEP are in `hardware/pcb/v2/`. The v1 board files have been removed (they remain in git history).
 
 **v2 PCB:** [`hardware/pcb/v2/`](hardware/pcb/v2) has the Gerbers sent to JLCPCB ([`Gerber_NERVA_v2_2026-11-25.zip`](hardware/pcb/v2/Gerber_NERVA_v2_2026-11-25.zip)) and a 3D STEP of the assembled board ([`PCB_3D_NERVA_v2.step`](hardware/pcb/v2/PCB_3D_NERVA_v2.step)). The board was designed in EasyEDA Pro; the project file is [`NERVA_Ring_v2.epro2`](hardware/pcb/v2/NERVA_Ring_v2.epro2) (open it with File → Open → EasyEDA Pro project).
 
