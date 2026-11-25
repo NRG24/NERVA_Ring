@@ -125,7 +125,9 @@ Order of 2 v2 boards from JLCPCB, prices checked Nov 25, 2026:
 | Flex PCB fabrication | $31.60 |
 | PCB assembly | $137.65 |
 | Shipping | $25.99 |
-| **Total including shipping** | **$286.84** |
+| Total including shipping | $286.84 |
+| What I cover | −$37.00 |
+| **Total requested** | **$249.84** |
 
 Full BOM: [`hardware/NERVA RING-bom.csv`](hardware/NERVA%20RING-bom.csv) · component breakdown: [`hardware/BOM.md`](hardware/BOM.md)
 

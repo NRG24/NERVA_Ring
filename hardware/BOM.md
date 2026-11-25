@@ -1,6 +1,6 @@
 # NERVA Ring v2 - Bill of Materials
 
-> **Source files:** [`NERVA RING-bom.csv`](NERVA%20RING-bom.csv) is the full order for 2 boards, one row per purchase including PCB, assembly and shipping (it totals $286.84). [`BOM_v2_components.csv`](BOM_v2_components.csv) is the full component breakdown with LCSC part numbers. Prices are from the JLCPCB checkout and LCSC product pages, checked Nov 25, 2026.
+> **Source files:** [`NERVA RING-bom.csv`](NERVA%20RING-bom.csv) is the full order for 2 boards, one row per purchase including PCB, assembly and shipping (it totals $249.84 after the $37.00 I'm covering). [`BOM_v2_components.csv`](BOM_v2_components.csv) is the full component breakdown with LCSC part numbers. Prices are from the JLCPCB checkout and LCSC product pages, checked Nov 25, 2026.
 
 ![NERVA Ring v2 BOM](BOM_v2.png)
 
@@ -13,7 +13,9 @@
 | PCB assembly | Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging | $137.65 | JLCPCB |
 | | **Merchandise total** | **$260.85** | |
 | Shipping | | $25.99 | JLCPCB |
-| | **Total including shipping** | **$286.84** | |
+| | Total including shipping | $286.84 | |
+| What I cover | Part of the order I'm paying for myself | −$37.00 | |
+| | **Total requested** | **$249.84** | |
 
 The line items below add up to $88.97 for 2 boards at LCSC list prices. The $2.63 difference from the $91.60 components charge is the spare parts JLCPCB buys to cover assembly loss.
 
