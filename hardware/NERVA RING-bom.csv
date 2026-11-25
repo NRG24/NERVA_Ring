@@ -1,32 +1,32 @@
-Name,Purpose,Quantity,Total Cost (USD),Link,Distributor,,,,,
-Smart Cell for Small Wearable Devices High-Energy Compact Power Source Ring-Type Lithium-Ion Battery OEM ODM Rechargeable,Curved LiPo Battery to power the PCB,5,27,https://www.alibaba.com/product-detail/Smart-Cell-for-Small-Wearable-Devices_11000020635153.html?spm=a2756.order-detail-ta-ta-b.0.0.4d01f19cOwtP4w,Alibaba (via Trusted Supplier I've used before),,,,,
-Flex PCB + PCB Assembly,This is the flexible PCB with all of the needed components except for the battery- Assembly included. I got the cheapest shipping option available.,2,160.6,,JLCPCB,,,,,
-Raytac MDBT42V - P,MCU- Preorder for PCB Assembly,2,11.06,https://jlcpcb.com/parts/componentSearch?searchTxt=mdbt42v-512kv2,JLCPCB Pre-Order,,,,,
-,,,,,,,,,,
-,,Total:,198.6,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-PCBA Parts list excluding Raytac MCU,,,,,,,,,,
-,,,,,,,,,,
-No.,Quantity,Comment,Designator,Footprint,Value,Manufacturer Part,Manufacturer,Supplier Part,Supplier,JLCPCB Price
-1,2,Test-Point,"BAT+,BAT-",Test-Point-2mm,,,,,,
-2,8,100nF,"C6,C7,C9,C12,C14,C15,C_VDD1,C_VDDH1",C0402,100nF,,,,,
-3,2,4.7uF,"C8,C17",C0603,4.7uF,,,,,
-4,5,10uF,"C11,C13,C16,C_VDD,C_VDDH",C0603,10uF,,,,,
-5,3,100nF,"CR1,CR2,CR3",C0402,,,,,,
-6,1,PZ254V-11-02P,H4,HDR-TH_2P-P2.54-V-M,,PZ254V-11-02P,XFCN(兴飞),C492401,LCSC,0.0018
-7,1,10uH,L1,L0603,10uH,,,,,
-8,3,4.7k,"R1,R2,R5",R0402,4.7k,,,,,
-9,1,10K,R6,R0402,10K,,,,,
-10,2,4.7K,"RG1,RG2",R0402,,,,,,
-11,4,200K,"RG3,RG4,RG8,RG9",R0402,,,,,,
-12,1,100K,RG5,R0402,,,,,,
-13,2,100k,"RG6,RG7",R0402,,,,,,
-14,1,1M,RG10,R0402,,,,,,
-15,1,Test-Point,TP_VDD,Test-Point-0.5mm,,,,,,
-16,1,MAX30102EFD+T,U1,OESIP-14_L5.6-W3.3-P0.80-TL,,MAX30102EFD+T,ADI(亚德诺)/MAXIM(美信),C6454833,LCSC,1.7855
-17,1,LSM6DSRTR,U4,LGA-14_L3.0-W2.5-P0.50-BR,,LSM6DSRTR,ST(意法半导体),C784817,LCSC,0.4076
-18,1,LM324PWR,U5,TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL,,LM324PWR,TI(德州仪器),C7942,LCSC,0.0289
-19,1,TLV70018DDCR,U7,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR,,TLV70018DDCR,TI(德州仪器),C79924,LCSC,0.0249
-20,1,MDBT50Q-1MV2,U10,COMM-SMD_MDBT50Q-1MV2-1,,MDBT50Q-1MV2,RAYTAC,C5118826,LCSC,1.0176
+Part,Qty,Unit Price,Link,Vendor,Designators,MPN,Notes
+Heart-rate / SpO2 optical sensor,2,18.4507,https://www.lcsc.com/product-detail/C1530834.html,LCSC (placed by JLCPCB),U3,MAXM86161EFD+,16 in stock at LCSC
+Bluetooth module (nRF52833),2,14.4210,https://www.lcsc.com/product-detail/C6124130.html,LCSC (placed by JLCPCB),U5,ANNA-B402-00B,55 in stock at LCSC
+Battery charger + power management,2,7.0530,https://www.lcsc.com/product-detail/C2866577.html,LCSC (placed by JLCPCB),U6,BQ25120AYFPR,Only 2 in stock at LCSC
+Motion sensor (6-axis IMU),2,2.4287,https://www.lcsc.com/product-detail/C17496470.html,LCSC (placed by JLCPCB),U4,LSM6DSVQTR,
+5V boost converter (sensor LEDs),2,0.7796,https://www.lcsc.com/product-detail/C2070904.html,LCSC (placed by JLCPCB),U1,TPS61240YFFR,
+Op-amp (stress / GSR sensing),2,0.7433,https://www.lcsc.com/product-detail/C2058093.html,LCSC (placed by JLCPCB),U9,TLV8542RUGR,
+ESD protection diode,6,0.0732,https://www.lcsc.com/product-detail/C207271.html,LCSC (placed by JLCPCB),"D1,D3,D4",SP1005-01WTG,
+Inductor 2.2µH,2,0.0666,https://www.lcsc.com/product-detail/C383389.html,LCSC (placed by JLCPCB),L1,MLZ1005M2R2WT000,
+Antenna RF connector (IPEX),2,0.0635,https://www.lcsc.com/product-detail/C411563.html,LCSC (placed by JLCPCB),RF1,KH-IPEX-K501-29,
+Capacitor 10µF,6,0.0192,https://www.lcsc.com/product-detail/C15525.html,LCSC (placed by JLCPCB),"C1,C3,C16",CL05A106MQ5NUNC,
+Capacitor 2.2µF,4,0.0247,https://www.lcsc.com/product-detail/C319184.html,LCSC (placed by JLCPCB),"C15,C20",GRM033R61A225ME47D,
+Inductor 1µH,2,0.0386,https://www.lcsc.com/product-detail/C531288.html,LCSC (placed by JLCPCB),L2,MLZ1005M1R0WT000,
+Capacitor 100nF,12,0.0034,https://www.lcsc.com/product-detail/C66938.html,LCSC (placed by JLCPCB),"C6,C7,C11,C19,C21,C23",0201X104K6R3NT,
+Capacitor 10µF,2,0.0186,https://www.lcsc.com/product-detail/C7472949.html,LCSC (placed by JLCPCB),C12,HGC0402R5106M100NTEJ,
+Capacitor 1µF,6,0.0056,https://www.lcsc.com/product-detail/C52923.html,LCSC (placed by JLCPCB),"C2,C5,C8",CL05A105KA5NQNC,
+Capacitor 1nF,2,0.0161,https://www.lcsc.com/product-detail/C161371.html,LCSC (placed by JLCPCB),C25,GRM0335C1E102JA01D,
+Capacitor 1µF,2,0.0136,https://www.lcsc.com/product-detail/C76929.html,LCSC (placed by JLCPCB),C13,GRM033R60J105KEA2D,
+Resistor 41.2kΩ,4,0.0038,https://www.lcsc.com/product-detail/C4311490.html,LCSC (placed by JLCPCB),"R18,R19",RMCF0201FT41K2,
+Resistor 1MΩ,8,0.0015,https://www.lcsc.com/product-detail/C295786.html,LCSC (placed by JLCPCB),"R12,R13,R15,R16",RC0201FR-071ML,
+Resistor 10kΩ,6,0.0012,https://www.lcsc.com/product-detail/C473048.html,LCSC (placed by JLCPCB),"R9,R17,R21",0201WMF1002TEE,
+Resistor 100Ω,2,0.0022,https://www.lcsc.com/product-detail/C77623.html,LCSC (placed by JLCPCB),R11,RC0201FR-07100RL,
+Capacitor 10nF,6,0.0006,https://www.lcsc.com/product-detail/C5142551.html,LCSC (placed by JLCPCB),"C22,C24,C26",TCC0201X7R103K500ZT,
+Resistor 4.7kΩ,4,0.0009,https://www.lcsc.com/product-detail/C2906941.html,LCSC (placed by JLCPCB),"R1,R2",FRC0402J472 TS,
+Resistor 402kΩ,2,0.0016,https://www.lcsc.com/product-detail/C273291.html,LCSC (placed by JLCPCB),R14,RC0201FR-07402KL,
+Resistor 150kΩ,2,0.0014,https://www.lcsc.com/product-detail/C473465.html,LCSC (placed by JLCPCB),R20,0201WMF1503TEE,
+0Ω jumper (inductor footprint),2,0.0009,https://www.lcsc.com/product-detail/C2906858.html,LCSC (placed by JLCPCB),L3,FRC0402F0000TS,
+Resistor 0Ω,2,0.0007,https://www.lcsc.com/product-detail/C7467269.html,LCSC (placed by JLCPCB),R7,FRC0201P000 TS,
+Spare parts for assembly loss,1,2.6306,,JLCPCB,,,Extra parts JLCPCB buys; brings components to the $91.60 checkout charge
+Flex PCB fabrication (v2 board),1,31.60,,JLCPCB,,,2 boards
+PCB assembly,1,137.65,,JLCPCB,,,"Setup, stencil, feeder loading, SMT, fixture, X-ray, packaging for 2 boards"
+Shipping,1,25.99,,JLCPCB,,,PCB + assembly order

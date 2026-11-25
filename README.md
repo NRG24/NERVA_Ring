@@ -92,8 +92,9 @@ NERVA_Ring/
 │   ├── simple_ble/             # Minimal BLE test
 │   └── *.ino                  # Standalone test sketches
 ├── hardware/                   # Hardware design files (v1 board)
-│   ├── NERVA RING-bom.csv      # JLCPCB bill of materials (v1)
-│   ├── BOM.md                  # Formatted BOM reference (v1)
+│   ├── NERVA RING-bom.csv      # v2 bill of materials (full order, 2 boards)
+│   ├── BOM_v2_components.csv   # v2 component breakdown with LCSC part numbers
+│   ├── BOM.md                  # Formatted v2 BOM reference
 │   ├── gsr_wearable.kicad_sch  # KiCad schematic
 │   ├── gsr_wearable.kicad_pro  # KiCad project
 │   ├── Ring CAD.step           # 3D CAD model
@@ -111,6 +112,20 @@ NERVA_Ring/
 ```
 
 ## Bill of Materials (Summary)
+
+![NERVA Ring v2 BOM](hardware/BOM_v2.png)
+
+Order of 2 v2 boards from JLCPCB, prices checked Nov 25, 2026:
+
+| Item | Cost (USD) |
+|------|-----------|
+| Components (27 line items, LCSC parts) | $91.60 |
+| Flex PCB fabrication | $31.60 |
+| PCB assembly | $137.65 |
+| Shipping | $25.99 |
+| **Total including shipping** | **$286.84** |
+
+Full BOM: [`hardware/NERVA RING-bom.csv`](hardware/NERVA%20RING-bom.csv) · component breakdown: [`hardware/BOM.md`](hardware/BOM.md)
 
 Active (non-passive) components on the **v2** board:
 
@@ -140,7 +155,7 @@ Active (non-passive) components on the **v2** board:
 
 ## Board Revisions
 
-Every design file in `hardware/` and every sketch in `firmware/` describes the **v1** board. v2 replaced all of it:
+Every design file in `hardware/` (except the BOM files) and every sketch in `firmware/` describes the **v1** board. v2 replaced all of it:
 
 | Role | v1 | v2 (current) |
 |------|----|--------------|
@@ -156,7 +171,7 @@ Every design file in `hardware/` and every sketch in `firmware/` describes the *
 
 
 ### Hardware
-The KiCad project, Gerbers, and BOM in `hardware/` are the **v1** board: a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. v2 design files are not in this repo — the v2 description above comes from its netlist and datasheet review.
+The KiCad project and Gerbers in `hardware/` are the **v1** board (the BOM files are v2): a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. v2 design files are not in this repo — the v2 description above comes from its netlist and datasheet review.
 
 Bringing up a v2 board: attach a debug probe to SWD (module pins 41/42) and power it from a partially charged cell. **A fresh board will not charge on its own** — the floating TS pin holds the BQ25120A off until firmware clears `TS_EN`.
 
