@@ -102,7 +102,7 @@ NERVA_Ring/
 │   │   └── Ringv7.step         # Full assembly STEP (housing + electronics)
 │   ├── Ring CAD.step           # Older 3D CAD model
 │   ├── pcb/                    # PCB files
-│   │   ├── v2/                 # Current board: Gerbers + 3D STEP of the assembled PCB
+│   │   ├── v2/                 # Current board: EasyEDA Pro project, Gerbers, 3D STEP
 │   │   └── PCB and Schematic/  # v1 Gerbers and screenshots
 │   ├── SCHEMATIC_CHECKLIST.md  # Design review checklist
 │   ├── GSR_CIRCUIT_INTEGRATION.md
@@ -178,7 +178,7 @@ Every design file in `hardware/` (except the BOM files) and every sketch in `fir
 ### Hardware
 The KiCad project and the Gerbers in `hardware/pcb/PCB and Schematic/` are the **v1** board (the BOM files and `hardware/pcb/v2/` are v2): a 2-layer flex design with components on both sides, 0402/0201 passives, assembled by JLCPCB. The v2 Gerbers and board STEP are in `hardware/pcb/v2/`.
 
-**v2 PCB:** [`hardware/pcb/v2/`](hardware/pcb/v2) has the Gerbers sent to JLCPCB ([`Gerber_NERVA_v2_2026-11-25.zip`](hardware/pcb/v2/Gerber_NERVA_v2_2026-11-25.zip)) and a 3D STEP of the assembled board ([`PCB_3D_NERVA_v2.step`](hardware/pcb/v2/PCB_3D_NERVA_v2.step)). The board was designed in EasyEDA Pro.
+**v2 PCB:** [`hardware/pcb/v2/`](hardware/pcb/v2) has the Gerbers sent to JLCPCB ([`Gerber_NERVA_v2_2026-11-25.zip`](hardware/pcb/v2/Gerber_NERVA_v2_2026-11-25.zip)) and a 3D STEP of the assembled board ([`PCB_3D_NERVA_v2.step`](hardware/pcb/v2/PCB_3D_NERVA_v2.step)). The board was designed in EasyEDA Pro; the project file is [`NERVA_Ring_v2.epro2`](hardware/pcb/v2/NERVA_Ring_v2.epro2) (open it with File → Open → EasyEDA Pro project).
 
 **CAD:** the current ring is in [`hardware/cad/`](hardware/cad): [`Ringv7.f3d`](hardware/cad/Ringv7.f3d) is the Fusion 360 source and [`Ringv7.step`](hardware/cad/Ringv7.step) is the full assembly with the electronics.
 
